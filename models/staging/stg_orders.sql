@@ -5,6 +5,8 @@ a.orderdate,
 a.shipdate,
 a.shipmode,
 a.ordersellingprice - a.ordercostprice as orderprofit,
+a.ordersellingprice,
+a.ordercostprice,
 --from raw customers
 c.customername,
 c.segment,
